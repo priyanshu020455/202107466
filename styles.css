@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #690ce2;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.paragraph-container {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-success {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+
+.btn-select {
+    background-color: red;
+    color: white;
+}
+
+.btn-edit {
+    background-color: orange;
+    color: white;
+}
+
+.btn-view {
+    background-color: green;
+    color: white;
+}
+
+.btn-delete {
+    background-color: yellow;
+    color: white;
+}

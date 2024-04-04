@@ -1,0 +1,37 @@
+/* custom-style.css */
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    color: #333; /* Change the text color */
+    background-color: #f4f4f4; /* Change the background color */
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Change the font family */
+    color: #007bff; /* Change the heading color */
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Change the link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Button styles */
+.btn {
+    background-color: #007bff; /* Change the button background color */
+    color: #fff; /* Change the button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Adjust button padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}

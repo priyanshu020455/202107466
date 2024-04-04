@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    background-color: #690ce2;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.logo-container{
+    text-align: center; /* Center the logo horizontally */
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.logo-container img {
+    max-width: 100px; /* Set maximum width for the logo */
+    max-height: 100px; /* Set maximum height for the logo */
+    display: block; /* Ensure the logo is displayed as a block element */
+    margin: 0 auto; /* Center the logo horizontally within its container */
+}
+
+.about-me-section h2 {
+    margin: 0;
+    color: #690ce2;
+    font-weight: bold;
+    font-size: 48px; /* Adjusted font size */
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; 
+}
+
+.about-me-section {
+    text-align: left; 
+}
+
+.profile-image {
+    max-width: 300px; /* Limit image width */
+    display: block;
+    margin: 20px auto; /* Center the image */
+    border: 5px solid #690ce2;
+    border-radius: 50%; /* Make the image round */
+}
+
+.black-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black; 
+    line-height: 1.6; 
+}
+
+
+
+
